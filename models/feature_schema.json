@@ -1,0 +1,57 @@
+{
+  "numeric": {
+    "Age": [
+      28.0,
+      77.0
+    ],
+    "RestingBP": [
+      80.0,
+      200.0
+    ],
+    "Cholesterol": [
+      85.0,
+      603.0
+    ],
+    "MaxHR": [
+      60.0,
+      202.0
+    ],
+    "Oldpeak": [
+      -2.6,
+      6.2
+    ]
+  },
+  "categorical": {
+    "Sex": [
+      "F",
+      "M"
+    ],
+    "ChestPainType": [
+      "ASY",
+      "ATA",
+      "NAP",
+      "TA"
+    ],
+    "RestingECG": [
+      "LVH",
+      "Normal",
+      "ST"
+    ],
+    "ExerciseAngina": [
+      "N",
+      "Y"
+    ],
+    "ST_Slope": [
+      "Down",
+      "Flat",
+      "Up"
+    ]
+  },
+  "binary": {
+    "FastingBS": [
+      0,
+      1
+    ]
+  },
+  "output": "вероятность наличия заболевания (0..1) и класс при пороге 0.5"
+}
